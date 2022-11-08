@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Registration Form</title>
+        <body>
+      <form>
+        <div>
+        <lable>Enter first name</lable>
+        <input type="text" name="firstName"  required minlength="2" maxlength="12">  <!-- required is used for to show suggestion-->
+       </div>
+       <br>
+       
+       <div>
+        <label>Enter last name</label>
+        <input type="text" name="lastName" required>
+      </div>
+      <br>
+
+      <!--age-->
+      <div>
+        <label>Enter age</label>
+        <input type="number" name="age" min="10" max="70">
+      </div>
+
+      <div>
+        <lable>Enter Mobile Number</lable>
+        <input type="tel" name="mobileNumber"  minlength="10" maxlength="12">
+    </div>
+    <br>
+
+    <!--email-->
+    <div>
+    <label>Enter Email Id</label>
+        <input type="email" name="email">
+    </div>
+    <br>
+
+    <div>
+    <label>Enter Password</label>
+    <input type="password" name="password" minlength="8" maxlength="12">
+    </div>
+
+    <div>
+        <label>Select gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+    </div>
+
+    <div>
+        <label>Select city</label>
+        <select>
+            <option>Bangalore</option>
+            <option>Shivamogga</option>
+            <option>Mysore</option>
+        </select>
+    </div>
+
+
+    <div>
+        <label>Select course</label>
+        <input type="checkbox">java 
+        <input type="checkbox">python
+        <input type="checkbox">dotnet
+<!--check box is used for multiple selection-->
+<!--text,email,min,max these are validation-->
+    </div>
+
+    
+    <div>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+    </div>
+
+
+
+  <!--html 5 validations task-->
+<!--how to turn off auto suggestion in html5-->
+
+
+
+      </form>
+      
+        </body>
+    </head>
+</html>
