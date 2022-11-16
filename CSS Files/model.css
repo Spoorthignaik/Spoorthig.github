@@ -1,0 +1,73 @@
+.box{
+
+    padding:40px,60px,98px,89px;
+    border: 20px ,40px ,40px,50px ;
+    margin:20px;
+
+}
+
+.rect{
+    border: 2px solid violet;
+    width:100px;
+    height:200px;
+    margin: 10px solid green;
+
+}
+
+.rect1{
+    border: 2px solid blue;
+    width:400px;
+    height:200px;
+
+}
+
+.rect2{
+border:2px solid yellow;
+width:200px;
+height:100px;
+margin:60px;
+
+}
+
+
+.rect3{
+    border:2px solid red;
+    width:200px;
+    height:100px;
+    display: inline;
+    
+}
+
+.rect4{
+border:2px solid green;
+width:200px;
+height:100px;
+display:inline;
+
+
+}
+
+body{
+    background-image: url('nature1.jpg');
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

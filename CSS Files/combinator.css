@@ -1,0 +1,66 @@
+div p{
+    color: blue;
+}
+
+div > p{
+    color:blueviolet;
+}
+
+div + p{
+    color: green;
+}
+
+div ~ p{
+
+    color: rgb(25,90,9);
+}
+
+.static{
+    position:static;
+}
+
+relative{
+    position:relative;
+}
+
+.fixed{
+ position: fixed;
+ top:0;
+ right:0;
+ background-color: aqua;
+
+}
+
+.sticky{
+    position:sticky;
+    top:0;
+    background-color: red;
+
+}
+
+ul{
+  list-style-type: none;  
+  background-color: greenyellow;
+}
+
+li{
+    padding:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

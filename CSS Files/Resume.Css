@@ -1,0 +1,80 @@
+div{
+
+    border-radius: 5px;
+}
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height: 40px;
+    width: 98%;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+#name{
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:skyblue;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightcoral;
+}
+
+#contact
+{
+    margin-left: 45%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightgreen;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.right{
+    float: left;
+    margin-top: 50px;
+    height:auto;
+    width:99%;
+    background-color: lightsalmon;
+
+}
+
+h3
+{
+    text-decoration: underline;
+
+}
+
+table{
+    border: 1px darkslateblue;
+}
+
+td{
+    padding:2px;
+    border:1px salmon;
+}
+
+#course-name
+{
+    font-weight: bold;
+}
+#heading{
+    font-weight:bold;
+}
+
+
+
+
