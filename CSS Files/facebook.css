@@ -1,0 +1,122 @@
+s*{
+  margin:0%;
+  padding:0%;
+
+}
+
+body{
+
+    background-image: url('fbackground.jpg');
+    background-size: 400px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 100%;
+    width: 3px;
+    text-align: center;
+    text-decoration: none;
+    background-color:lightskyblue;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.textbox{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+h1{
+    font-size: 55px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width:500px;
+}
+
+.container{
+   
+    width:400px;
+    height: 350px;
+    margin-top: -194px;
+    margin-right: 160px;
+    float: right;
+    border-radius: 12px;
+
+    background-color: white;
+    width: 4000px;
+    height:350px;
+    text-align: center;
+
+}
+
+.form{
+    float:right;
+    background-color: white;
+   
+    margin-top: -12px;
+    padding:20px 
+    
+}
+.form input{
+    margin-top: ;
+    margin-left: -10px;
+    border-radius: 8px;
+    margin-right: -10px;
+    padding:17px;
+    width:332px;
+}
+button{
+    margin-top:15px;
+    background-color: blue;
+    padding:16px;
+    width:100%;
+    border: 8px;
+    color: white;
+    font-family:  sans-serif;
+    font-size: 18px;
+
+}
+
+p{
+    background-color: white;
+    font-size: 16px;
+    color: blue;
+    margin-top: 10px;
+}
+
+p a{
+    color: blue;
+    background-color: white;
+}
+
+.btn{
+    padding:7px;
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.btn button{
+    background-color: #1b9c24;
+
+}
+
+footer{
+
+    text-align: center;
+  
+  background-color:white;
+  color: white;
+
+}
